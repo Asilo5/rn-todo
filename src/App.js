@@ -16,7 +16,7 @@ import {
   StatusBar,
 } from 'react-native';
 
-import Form from 'Form';
+import Form from './Form';
 
 const App: () => React$Node = () => {
   return (
