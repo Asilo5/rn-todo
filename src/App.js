@@ -21,13 +21,18 @@ import Form from './Form';
 const App: () => React$Node = () => {
   return (
     <View>
+      <Text style={styles.title}>Todo List</Text>
       <Form />
     </View>
   );
 };
 
-// const styles = StyleSheet.create({
-
-// });
+const styles = StyleSheet.create({
+  title: {
+    paddingTop: 60,
+    textAlign: 'center',
+    fontSize: 60,
+  },
+});
 
 export default App;
