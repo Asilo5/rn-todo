@@ -1,10 +1,11 @@
 import React from 'react';
-import {View, TextInput, StyleSheet} from 'react-native';
+import {View, TextInput, StyleSheet, Button} from 'react-native';
 
 const Form = () => {
   return (
     <View style={styles.form}>
       <TextInput style={styles.input} placeholder="Write To do!" />
+      <Button title="Submit" />
     </View>
   );
 };
