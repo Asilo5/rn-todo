@@ -1,6 +1,8 @@
-import todoEntry from './todoEntry';
+import TodoEntry from './TodoEntry';
+import { Action, Thunk, Computed } from 'easy-peasy';
 
 
 export default interface TodosModel {
-  todos: todoEntry[];
+  Todos: TodoEntry[];
+  addTodos: Action<TodosModel, TodoEntry>;
 };
